@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<!--
+    Author: Nereida Roddriguez
+    Date: 02/10/2021
+    File: index.html
+    Purpose: Portfolio for Nereida Rodriguez, also known as RemiSkies
+-->
+<html lang="en">
+
+<!-- Head Style; gives content type/scale/description and keywords --> 
+
+<head>
+	<meta http-equiv=Content-Type content="text/html; charset=utf-8" />    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv=Content-Language content=en-us>
+    <meta name="description" content="My name is Nereida Rodriguez and I am a Web Designer and Developer. I would be happy to meet you and be of assistance in your endeavors!" />
+    <meta name="keywords" content="portfolio, web design, web developer, design, developer, RemiSkies, RemiSkies_Design" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/styles.css" type="text/css" />
+    <link rel="stylesheet" href="css/portfolio.css" type="text/css" />
+    <link rel="shortcut icon" type="image/png" href="images/pawprint.png" />
+    <title>Portfolio</title>
+</head>
+
+<!-- Body Here -->
+
+<body class="site">
+
+    <!-- Header Here -->
+
+	<header class="mainhead">
+        <h1 class="site-title"><a href="index.html">Nereida Rodriguez</a></h1>
+    </header>
+
+    <!-- Navigation Section Here -->
+
+	<section class="navi">
+        <span class="navbar-toggle" id="js-navbar-toggle">
+            <img src = "images/menu2.png" />
+        </span>
+		<nav>
+			<ul class="mainNav" id="js-menu">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About Me</a></li>
+				<li><a href="resume.html">Resume</a></li>
+                <li><a class="current" href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+			</ul>
+		</nav>
+    </section>
+
+    <!-- Main Area Here -->
+    
+    <main id="content" class="main-area">
+
+        <div class="core">
+
+            <!-- Tab links -->
+            <div class="tab">
+                <button class="tablinks" onclick="openTab(event, 'htmlcss')" id="defaultOpen">HTML/CSS</button>
+                <button class="tablinks" onclick="openTab(event, 'bootstrap')">BOOTSTRAP</button>
+                <button class="tablinks" onclick="openTab(event, 'jsphp')">JS/PHP</button>
+                <button class="tablinks" onclick="openTab(event, 'nodejs')">NODE.JS</button>
+                <button class="tablinks" onclick="openTab(event, 'cms')">CMS</button>
+                <button class="tablinks" onclick="openTab(event, 'adobe')">ADOBE</button>
+            </div>
+  
+            <!-- Tab content -->
+
+            <!-- HTML/CSS -->
+            <div id="htmlcss" class="tabcontent">
+                <h3>HTML/CSS</h3>
+                <p>
+                    <a class="portLinks" href="https://wcet3.waketech.edu/narodriguez/DME210/responsive/index.html" target="_blank">Quick Responsive Build</a><br /><br/>
+                    <a class="portLinks" href="https://wcet3.waketech.edu/narodriguez/WEB125/heaven4paws/index.html" target="_blank">Heaven4Paws Final Project</a><br />
+                </p>
+            </div>
+  
+            <!-- BOOTSTRAP -->
+            <div id="bootstrap" class="tabcontent">
+                <h3>BOOTSTRAP</h3>
+                <p>
+                    <a class="portLinks" href="https://wcet3.waketech.edu/narodriguez/WEB125/biltmore/index.html" target="_blank">First Biltmore Website</a><br /><br/>
+                    <a class="portLinks" href="https://wcet3.waketech.edu/narodriguez/WEB125/biltmore2/index.html" target="_blank">Second Biltmore Website</a><br />
+                </p>
+            </div>
+  
+            <!-- JS/PHP -->
+            <div id="jsphp" class="tabcontent">
+                <h3>JS/PHP</h3>
+                <p>
+                    <a class="portLinks" href="https://wcet3.waketech.edu/narodriguez/rodriguez_Chap5/date.html" target="_blank">Quick time stamp with JavaScript</a> <br /><br/>
+                    <a class="portLinks" href="https://wcet3.waketech.edu/narodriguez/WEB115/finalproject/finalProject.html" target="_blank">Final Project PHP Resume</a><br /><br/>
+                    <a class="portLinks" href="https://wcet3.waketech.edu/nrodriguez/WEB260/ex2/html/index.php" target="_blank">E-Commerce Coffee Website</a><br /><br/>
+                    <a class="portLinks" href="https://wcet3.waketech.edu/nrodriguez/web260/ex1/html/index.php" target="_blank">E-Commerce Knowledge is Power Website</a><br />
+                </p>
+            </div>
+
+            <!-- NODE.JS -->
+            <div id="nodejs" class="tabcontent">
+                <h3>NODE.JS</h3>
+                <p>
+                    <a class="portLinks" href="https://wcet3.waketech.edu/narodriguez/WEB215/my-portfolio/build/" target="_blank">React Portfolio</a><br /><br/>
+                    <a class="portLinks" href="https://wcet3.waketech.edu/narodriguez/WEB215/vue_todolist/dist/index.html" target="_blank">Vue</a><br /><br/>
+                    <a class="portLinks" href="https://wcet3.waketech.edu/narodriguez/WEB125/ToDo/build/index.html" target="_blank">ToDo List</a><br />        
+                </p>
+            </div>
+
+            <!-- Content Management Systems -->
+            <div id="cms" class="tabcontent">
+                <h3>CMS</h3>
+                <p>
+                    <a class="portLinks" href="https://remiskies.wordpress.com/" target="_blank">WordPress.Com RemiSkies_Design</a><br /><br/>
+                    <a class="portLinks" href="https://wcet3.waketech.edu/narodriguez/web250/" target="_blank">WordPress.Org RemiSkies_Design With WEB250</a><br /><br/>
+                    <a class="portLinks" href="https://wcet3.waketech.edu/narodriguez/web250blog/wordpress/" target="_blank">WordPress.Org Blog Creation Basics Built</a><br /><br/>
+                    <a class="portLinks" href="https://wcet3.waketech.edu/narodriguez/web250eos/" target="_blank">WordPress.Org Puerto Rico WEB250 End of Semester Project</a><br /><br/>
+                    <a class="portLinks" href="http://wcet3.waketech.edu/nrodriguez/web225/index.php" target="_blank">Joomla Morrisville Creation</a><br />
+                </p>
+            </div>
+
+            <!-- Adobe Creations-->
+            <div id="adobe" class="tabcontent">
+                <h3>ADOBE</h3>
+                <p>
+                    <a class="portLinks" href="https://youtu.be/VBXNyWw8paI" target="_blank">Premiere Pro How To 1</a><br /><br/>
+                    <a class="portLinks" href="https://youtu.be/z5fiDFUZrMo" target="_blank">Premiere Pro How To 2</a><br /><br/>
+                    <a class="portLinks" href="https://youtu.be/-QwImdDA5r8" target="_blank">After Effects, Camera FlyThrough</a><br /><br/>
+                    <a class="portLinks" href="https://youtu.be/F6npr-zihlM" target="_blank">StoryBoard</a><br />
+                </p>
+            </div>
+
+        </div>
+    </main>
+
+    
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+  <!-- Footer Here -->
+	
+	<footer class="colophon">
+		<aside>
+			<a href="https://www.facebook.com/remiskies.design/" class="fa fa-facebook"></a>
+			<a href="https://twitter.com/remiskiesdesign" class="fa fa-twitter"></a>
+			<a href="https://www.linkedin.com/in/nereida-a-rodriguez" class="fa fa-linkedin"></a>
+			<a href="https://instagram.com/remiskiesdesign" class="fa fa-instagram"></a>
+            <a href="http://www.remiskies.wordpress.com" class="fa fa-wordpress"></a>
+            
+            <br>
+            
+            <p>RemiSkies_Design © Copyright | All Rights Reserved<br>
+                Contact: <a href="remiskies_design@outlook.com">remiskies_design@outlook.com</a></p>
+		</aside>
+    </footer>
+
+
+
+
+    <script src="./js/main.js" type="text/javascript"></script>
+</body>
+</html>

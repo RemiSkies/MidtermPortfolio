@@ -1,0 +1,135 @@
+/***************************
+**    Default Styles      **
+***************************/
+
+/***************************
+**        Header          **
+***************************/
+
+/***************************
+**          Nav           **
+***************************/
+
+/***************************
+**       Main Area        **
+***************************/
+
+form {
+	width: 75%;
+}
+
+input[type=text], select, textarea {
+	width: 100%;
+	text-align: left;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: vertical;
+}
+
+input[type=submit] {
+	border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #2376ae;
+    background: linear-gradient(to bottom, rgba(35,118,174,.9) 40%, rgba(255,255,255,.5));
+    color: black; 
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 1.5em; /* Increase font size */
+}
+
+input[type=submit]:hover {
+	background-color: #555;
+}
+
+.container {
+	margin: auto;
+	margin-top: 25px;
+	border-radius: 5px;
+	width: 50%;
+	border: 5px solid #6DC7D0;
+	background-color: #d9eeef;
+	padding: 20px;
+}
+
+body {
+    text-align: center;
+}
+
+form {
+    display: inline-block;
+}
+
+.myinfo {
+	margin: auto;
+	width: 90%;
+}
+
+.firstword {
+	font-weight: bold;
+}
+/***************************
+**         Footer         **
+***************************/
+
+@media only screen and (max-width: 800px) {
+	
+	/***************************
+	**        Header          **
+	***************************/
+	
+	/***************************
+	**          Nav           **
+	***************************/
+	
+	/***************************
+	**         Main           **
+	***************************/
+	.container {
+		width: 70%;
+	}
+	
+	form {
+		width: 90%;
+	}
+
+	/***************************
+	**        Footer          **
+	***************************/
+}
+
+@media only screen and (max-width: 540px) {
+	
+	/***************************
+	**        General         **
+	***************************/
+
+	/***************************
+	**        Header          **
+	***************************/
+	
+	/***************************
+	**          Nav           **
+	***************************/
+	
+	/***************************
+	**         Main           **
+	***************************/
+	
+	.container {
+		width: 75%;
+	}
+	
+	form {
+		width: 99%;
+	}
+	
+	/***************************
+	**        Footer          **
+	***************************/
+
+}
