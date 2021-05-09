@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<!--
+    Author: Nereida Roddriguez
+    Date: 02/10/2021
+    File: index.html
+    Purpose: Portfolio for Nereida Rodriguez, also known as RemiSkies
+-->
+<html lang="en">
+
+<!-- Head Style; gives content type/scale/description and keywords --> 
+
+<head>
+	<meta http-equiv=Content-Type content="text/html; charset=utf-8" />    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv=Content-Language content=en-us>
+    <meta name="description" content="My name is Nereida Rodriguez and I am a Web Designer and Developer. I would be happy to meet you and be of assistance in your endeavors!" />
+    <meta name="keywords" content="portfolio, web design, web developer, design, developer, RemiSkies, RemiSkies_Design" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/styles.css" type="text/css" />
+    <link rel="stylesheet" href="css/portfolio.css" type="text/css" />
+    <link rel="shortcut icon" type="image/png" href="images/pawprint.png" />
+    <title>Portfolio</title>
+</head>
+
+<!-- Body Here -->
+
+<body class="site">
+
+    <!-- Header Here -->
+
+	<header class="mainhead">
+        <h1><a href="index.html">Nereida Rodriguez</a></h1>
+    </header>
+
+        <!-- Navigation Section Here -->
+        
+        <div class="openBtn" onclick="openNav()">Portfolio &#9776;</div>
+
+    <div id="myNav" class="overlay">
+
+        <!-- button to close navigation-->
+        <a href="javascript:void(0);" class="closeBtn" onclick="closeNav()">&times;</a>
+
+		<nav class="mainNav">
+			<a href="index.html">Home</a>
+			<a href="about.html">About Me</a>
+			<a href="resume.html">Resume</a>
+            <a href="portfolio.html" class="active">Portfolio</a>
+            <a href="contact.html">Contact</a>
+		</nav>
+	</div>
+
+    <!-- Main Area Here -->
+    
+    <main id="content" class="main-area">
+
+        <div class="core">
+
+            <!-- Tab links -->
+            <div class="tab">
+                <button class="tablinks" onclick="openTab(event, 'webpage')" id="defaultOpen">WEB PAGES</button>
+                <button class="tablinks" onclick="openTab(event, 'adobe')">ADOBE DESIGN</button>
+            </div>
+  
+            <!-- Tab content -->
+
+            <!-- HTML/CSS -->
+            <div id="webpage" class="tabcontent">
+                <h3>My Own Design</h3>
+                <p>
+                    <a class="portLinks" href="https://wcet3.waketech.edu/narodriguez/WEB125/heaven4paws/index.html" target="_blank">Heaven4Paws Final Project</a> <br />
+                    <a class="portLinks" href="https://wcet3.waketech.edu/narodriguez/WEB115/finalproject/finalProject.html" target="_blank">Final Project PHP Resume</a>
+            
+                </p>
+
+                <!-- Bootstrap -->
+                <h3>BOOTSTRAP</h3>
+                <p>
+                    <a class="portLinks" href="https://wcet3.waketech.edu/narodriguez/WEB125/biltmore/index.html" target="_blank">First Biltmore Website</a><br />
+                    <a class="portLinks" href="https://wcet3.waketech.edu/narodriguez/WEB125/biltmore2/index.html" target="_blank">Second Biltmore Website</a>
+                </p>
+
+               <!-- NODE.JS -->
+               <h3>NODE.JS</h3>
+                <p>
+                    <a class="portLinks" href="https://wcet3.waketech.edu/narodriguez/WEB215/my-portfolio/build/" target="_blank">React Portfolio</a><br />
+                    <a class="portLinks" href="https://wcet3.waketech.edu/narodriguez/WEB215/vue_todolist/dist/index.html" target="_blank">Vue ToDo List</a><br />
+                    <a class="portLinks" href="https://wcet3.waketech.edu/narodriguez/WEB125/ToDo/build/index.html" target="_blank">React ToDo List</a>       
+                </p>
+
+                <!-- Content Management Systems -->
+                <h3>CMS</h3>
+                <p>
+                    <a class="portLinks" href="https://wcet3.waketech.edu/narodriguez/web250/" target="_blank">WordPress Blog WEB.250 Example</a><br />
+                    <a class="portLinks" href="https://nereidar.sgedu.site/" target="_blank">WordPress WEB.260 Final Project WooCommerce</a><br />
+                    <a class="portLinks" href="https://wcet3.waketech.edu/narodriguez/web250blog/wordpress/" target="_blank">WordPress Creation Basic Build</a><br />
+                    <a class="portLinks" href="https://wcet3.waketech.edu/narodriguez/web250eos/" target="_blank">WordPress End of Semester Project</a>
+                </p>
+            </div>
+
+            <!-- Adobe Creations-->
+            <div id="adobe" class="tabcontent">
+                <h3>ADOBE DESIGNS</h3>
+                <p>
+                    <a class="portLinks" href="https://youtu.be/z5fiDFUZrMo" target="_blank">Premiere Pro How To Video</a><br /><br/>
+                    <a class="portLinks" href="https://youtu.be/aGOJwNpuZxY" target="_blank">After Effects, Camera FlyThrough Featuring my Cat</a><br /><br/>
+                    <a class="portLinks" href="https://youtu.be/F6npr-zihlM" target="_blank">StoryBoard</a><br /><br/>
+                    <a class="portLinks" href="https://neriarod5.myportfolio.com/" target="_blank">Adobe Portfolio</a><br />
+                </p>
+            </div>
+
+        </div>
+    </main>
+
+    
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+  <!-- Footer Here -->
+	
+	<footer class="footer">
+		<aside>
+			<a href="https://www.facebook.com/remiskies.design/" target="_blank" class="fa fa-facebook"></a>
+			<a href="https://twitter.com/remiskiesdesign" target="_blank" class="fa fa-twitter"></a>
+			<a href="https://www.linkedin.com/in/nereida-a-rodriguez" target="_blank" class="fa fa-linkedin"></a>
+			<a href="https://instagram.com/remiskiesdesign" target="_blank" class="fa fa-instagram"></a>
+            <a href="http://www.remiskies.wordpress.com" target="_blank" class="fa fa-wordpress"></a>
+            
+            <br>
+            
+            <p>RemiSkies_Design © Copyright | All Rights Reserved<br>
+                Contact: <a href="remiskies_design@outlook.com">remiskies_design@outlook.com</a></p>
+		</aside>
+    </footer>
+
+
+
+
+    <script src="./js/main.js" type="text/javascript"></script>
+</body>
+</html>
